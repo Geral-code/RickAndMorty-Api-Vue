@@ -1,6 +1,6 @@
 <template>
 
-<button v-on:click="siguientePag()" class="btn btn-primary">Siguiente</button>
+<!-- <button v-on:click="siguientePag()" class="btn btn-primary">Siguiente</button> -->
 <div class="container mt-5 ">
     <h2 class="fst-italic text-center mb-5">Rick and Morty</h2>
     <div class="row" v-for="character of characters.results" :key="character.id">
